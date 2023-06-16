@@ -1,0 +1,51 @@
+body {
+    background-color: #f2f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .filmes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .ficha {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .ficha img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .ficha p {
+    margin: 0;
+  }
+  
+  .opinioes {
+    margin-top: 10px;
+  }
+  
+  .opiniao {
+    margin-bottom: 5px;
+  }
+  
+  .opiniao p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .filmes-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
